@@ -1,0 +1,375 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+#main{
+    width: 100%;
+    height: 100vh;
+    background-color: aquamarine;
+}
+#main img{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    object-fit: cover;
+}
+#chocolate{
+    width: 90%;
+    height: 90vh;
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 100px;
+    /* background-color: gold; */
+}
+#container{
+    width: 60%;
+    height: 75%;
+    margin-top: 11%;
+    border-radius: 20px;
+    margin-left: 32%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    padding: 10px 60px;
+    background-color: rgb(158, 201, 224);
+    box-shadow: 2px 2px 4px 4px rgb(161, 159, 159);
+}
+#left{
+    width: 20%;
+    height: 75%;
+    margin-top: 11%;
+    margin-left: 10%;
+    border-radius: 20px;
+    position: absolute;
+    /* background-color: yellowgreen; */
+    box-shadow: 2px 2px 4px 4px rgb(161, 159, 159);
+}
+.diba{
+    width: 100%;
+    height: 13%;
+    margin-top: 20px;
+    font-size: 15px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 30px;
+    /* background-color: rebeccapurple; */
+}
+.diba h1{
+    text-align: start;
+    position: absolute;
+    margin-left: 15%;
+}
+.diba i{
+    font-size: 27px;
+    color: #cac3c3;
+}
+#little{
+    color: rgb(193, 14, 44);
+}
+#little i{
+    color: rgb(193, 14, 44);
+}
+#nav{
+    width: 82%;
+    height: 15%;
+    margin-left: 10%;
+   margin-top: 40px;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* background-color: yellowgreen; */
+    box-shadow: 2px 2px 2px 2px rgb(161, 159, 159);
+}
+#nav img{
+    width: 150px;
+    height: 150px;
+    margin-top: -20px;
+    object-fit: cover;
+    margin-left: 10px;
+}
+#head{
+    width: 30%;
+    height: 100%;
+    margin-left: 30%;
+    font-size: 17px;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 30px 20px;
+    justify-content: space-around;
+    flex-direction: column;
+    /* background-color: #fff; */
+}
+#icon{
+    width: 15%;
+    height: 100%;
+    position: relative;
+    left: 0%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* background-color: hotpink; */
+    font-size: 20px;
+}
+#icon img{
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    left: 27px;
+    border: none;
+    margin-top: 4px;
+    border-radius: 50%;
+    position: absolute;
+}
+#icon h5{
+    margin-left: 70px;
+}
+#notification{
+    color: #c9bebe;
+    background-color: #efecec;
+    padding: 4px;
+    border-radius: 50%;
+}
+#line{
+    width: 45%;
+    height: 90%;
+    border-radius: 20px;
+    background-color: #e6e4e4;
+}
+#line:hover{
+    scale: 1.3;
+}
+#line img{
+    width: 110%;
+    height: 50%;
+    margin-top: 0%;
+    margin-left: -30px;
+    position: relative;
+    object-fit: cover;
+}
+#nam{
+    width: 80%;
+    height: 10%;
+    margin-left: 10%;
+    margin-top: 10px;
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    align-items: center;
+    justify-content: space-between;
+    /* background-color: green; */
+}
+#phone{
+    width: 80%;
+    height: 10%;
+    /* background-color: #e52222; */
+    display: flex;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-left: 10%;
+    align-items: center;padding: 10px 0px;
+    justify-content: space-between;
+    position: relative;
+    color: #000;
+}
+#phone h4{
+    margin-left: 160px;
+    position: absolute;
+}
+#hiii{
+    width: 100px;
+    margin-top: 10%;
+    color: gray;
+    position: absolute;
+}
+#gmail{
+    width: 80%;
+    height: 10%;
+    /* background-color: #e52222; */
+    display: flex;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-left: 10%;
+    align-items: center;padding: 10px 0px;
+    justify-content: space-between;
+    position: relative;
+}
+#gmail hr{
+    width: 300px;
+    margin-top: 13%;
+    color: gray;
+    position: absolute;
+}
+#line h6{
+    margin-left: 10%;
+    position: relative;
+    font-size: 15px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgb(239, 66, 66);
+}
+#line i{
+    background-color: green;
+    padding: 4px;
+    border-radius: 50%;
+    color: #fff;
+    margin-left: 50%;
+    position: relative;
+    top: -15px;
+}
+#line button{
+    position: absolute;
+    padding: 10px 30px;
+    margin-left: -8%;
+    margin-top: 20px;
+    border-radius: 50px;
+    color: #fff;
+    border: none;
+    background: linear-gradient(rgb(214, 47, 47), rgb(244, 186, 24));
+}
+#hello{
+    width: 150px;
+    margin-top: 10%;
+    position: absolute;
+    color: gray;
+    margin-left: 50%;
+}
+#second{
+    width: 45%;
+    height: 90%;
+    border-radius: 20px;
+    overflow: hidden;
+}
+#small{
+    width: 100%;
+    height: 45%;
+   border-radius: 20px;
+    background-color: #e6e4e4;
+}
+#small:hover{
+    scale: 1.1;
+}
+#nab{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    align-items: center;
+    padding: 10px 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: space-between;
+    /* background-color: greenyellow; */
+    border-bottom: 2px solid gray;
+}
+#nab i{
+    margin-left: 60px;
+    font-weight: 700;
+}
+#nab button{
+    padding: 5px 15px;
+    border-radius: 50px;
+    border: none;
+    font-size: 11px;
+}
+#sweet{
+    width: 100%;
+    height: 45%;
+    border-radius: 20px;
+    overflow: hidden;
+    margin-top: 13%;
+    background-color: #e6e4e4;
+}
+#sweet:hover{
+    scale: 1.1;
+}
+#one{
+    width: 90%;
+    height: 20%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    align-items: center;
+    font-size: 20px;
+    padding: 10px;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-left: 20px;
+    display: flex;
+    /* background-color: yellowgreen; */
+}
+#one button{
+    padding: 8px 20px;
+    border-radius: 50px;
+    border: none;
+    background-color: #e5dcdc;
+}
+#two{
+    width: 90%;
+    height: 20%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    align-items: center;
+    font-size: 20px;
+    padding: 10px;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-left: 20px;
+    display: flex;
+    /* background-color: yellowgreen; */
+}
+#two button{
+    padding: 8px 20px;
+    border-radius: 50px;
+    border: none;
+    background-color: #e5dcdc;
+}
+.box{
+    width: 90%;
+    height: 15%;
+    margin-top: 10px;
+    margin-left: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    display: flex;
+    padding: 10px 20px;
+    align-items: center;
+    justify-content: space-between;
+    /* background-color: rgb(227, 255, 47); */
+}
+.box h4{
+    margin-left: -40%;
+    font-weight: 500;
+}
+.box button{
+    padding: 8px 20px;
+    border-radius: 50px;
+    border: none;
+    background: linear-gradient(rgb(227, 255, 47), greenyellow);
+}
+.box i{
+    color: greenyellow;
+}
+.yellow{
+    width: 90%;
+    height: 15%;
+    margin-top: 10px;
+    margin-left: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    display: flex;
+    padding: 10px 20px;
+    align-items: center;
+    justify-content: space-between;
+    /* background-color: rgb(255, 47, 147); */
+}
+.yellow h4{
+    margin-left: -40%;
+    font-weight: 500;
+}
+.yellow button{
+    padding: 8px 20px;
+    border-radius: 50px;
+    border: none;
+    background: linear-gradient(rgb(227, 255, 47), rgb(255, 47, 130));
+}
+.yellow i{
+    color: rgb(255, 47, 130);
+}
